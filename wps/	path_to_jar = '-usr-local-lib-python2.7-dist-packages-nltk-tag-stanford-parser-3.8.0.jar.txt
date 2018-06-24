@@ -1,0 +1,5 @@
+	path_to_jar = '/usr/local/lib/python2.7/dist-packages/nltk/tag/stanford-parser-3.8.0.jar'
+	path_to_models_jar = '/usr/local/lib/python2.7/dist-packages/nltk/tag/stanford-parser-3.8.0-models.jar'
+
+	jar = '/usr/local/lib/python2.7/dist-packages/nltk/tag/stanford-postagger-3.8.0.jar'
+	model = '/usr/local/lib/python2.7/dist-packages/nltk/tag/models/english-left3words-distsim.tagger'

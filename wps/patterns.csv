@@ -1,0 +1,11 @@
+pattern,tag
+"(('costs', 'NNS'), 'nmod', ('', 'CD'))(('', 'CD'), 'case', ('for', 'IN'))(('', 'CD'), 'dep', ('$', '$'))(('', 'CD'), 'nmod', ('sold', 'VBZ'))",l
+"(('','CD'),'case',('for','IN'))(('', 'CD'), 'dep', ('$', '$'))(('article', 'NN'), 'nmod', ('', 'CD'))(('','CD'),'case',('for','IN'))(('', 'CD'), 'dep', ('$', '$'))(('sells', 'VBZ'), 'nmod', ('', 'CD'))",p
+"(('choclates','NNS'),'nummod',('','CD'))(('','CD'),'case', ('of','IN'))(('price','NN')'nmod' ('','CD'))",lp
+"(('Find','VB'),'nsubj',('choclates','NNS'))(('percent','NN'),'det',('the','DT'))(('percent','NN'),'det',('loss','NN'))(('Find','VB'),'dobj',('percent','NN'))",lp
+"(('articles','NNS'),'nummod',('','CD'))(('SP','NN'),'case', ('to','TO'))(('SP','NN'),'det',('the','DT')(('equal', 'JJ'), 'nmod', ('SP', 'NN')))(('articles','NNS'),'nummod',('','CD'))",gp
+"(('find','VBP'),'advmod',('then','RB'))(('percent','NN'),'det',('the','DT'))(('percent','NN'),'compound',('gain','NN'))(('find','VBP'),'dobj',('percent','NN'))",gp
+"(('sold','VBZ'),'nmod',('',CD'))(('','CD'),'dep',('$','$'))(('costs','NNS'),'case',('if','IN'))(('find','VBP'),'dobj',('profit','NN'))(('','CD'),'case',('for','IN'))",p
+"(('','CD'),'mark',('if','IN'))(('','CD'),'nsubj',('CP','NN'))(('','CD'),'cop',('is','VBZ'))(('', 'CD'), 'dep', ('$', '$'))(('Calculate','VB'),'advcl',('','CD'))(('','CD'),'cc',('and','CC'))(('','CD'),'conj',('loss','NN'))(('','CD'),'cop',('is','VBZ'))(('', 'CD'), 'dep', ('$', '$'))",sp
+"(('incurred','VBN'),'ccomp',('Find','VB'))(('CP','NN'),'det',('the','DT'))(('Find','VB'),'dobj',('CP','NN'))",cp
+"(('','CD'),'case',('for','IN'))(('','CD'),'dep',('$','$'))(('chocolates','NNS'),'nmod',('','CD'))(('','CD'),'case',('of','IN'))(('','CD'),'dep',('$','$'))(('loss','NN'),'nmod',('','CD'))",cp

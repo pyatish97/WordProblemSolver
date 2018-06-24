@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'test.css' %}">
+</head>
+<body>
+<div class="container">
+  <form id="contact" method="post" action="portal">
+  {% csrf_token %}
+    <h3>Word  Problem  Solver</h3>
+    <h4>* Don't just copy the answers, understand the process</h4>
+    <fieldset>
+      
+      <textarea name="Question" placeholder="Paste your word problem...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit"  data-submit="...Sending">Jump to Answer</button>
+    </fieldset>
+
+  </form>
+</div>
+</body>
+
+</html>

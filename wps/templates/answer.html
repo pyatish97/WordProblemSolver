@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'test.css' %}">
+</head>
+<body>
+<div class="container">
+  <form id="contact" method="post" action="">
+  {% csrf_token %}
+    <h3>Word  Problem  Solver</h3>
+    <h4>* Don't just copy the answers, understand the process</h4>
+{% if not error %}    
+<fieldset>
+ 	
+      <textarea name="Question" placeholder="Cannot be processed" tabindex="5"  readonly disabled></textarea>
+    </fieldset>
+	{% else %}
+	<fieldset>
+ 	
+      <textarea name="Question" placeholder=" " tabindex="5"  readonly disabled>{{error}} </textarea>
+    </fieldset>
+	{% endif %}
+
+  </form>
+</div>
+</body>
+
+</html>
